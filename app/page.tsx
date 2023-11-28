@@ -15,7 +15,16 @@ export default function IndexPage() {
           Accessible and customizable components for Next.js 14 Ready.
         </p>
       </div>
+
+
       <div className="flex gap-4">
+        <Link
+          href="/dashboard/"
+          rel="noreferrer"
+          className={buttonVariants()}
+        >
+          Account
+        </Link>
         <Link
           href={siteConfig.links.docs}
           target="_blank"
